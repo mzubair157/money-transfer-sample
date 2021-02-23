@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "7f28e5d9-5ee1-4554-8a06-78dfc87dab9f",
+		"name": "Money Transfer sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get customer transfer history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4567/api/v1/money/transfers?senderID=AbcXyz123987",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"api",
+						"v1",
+						"money",
+						"transfers"
+					],
+					"query": [
+						{
+							"key": "senderID",
+							"value": "AbcXyz123987"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"senderName\": \"A new sender\",\r\n    \"senderIdentificationNumber\" : \"AbcXyz123987\",\r\n    \"senderPhoneNumber\": \"+123456789\",\r\n    \"receiverName\": \"A new sender\",\r\n    \"receiverIdentificationNumber\" : \"DefUvw456000\",\r\n    \"receiverPhoneNumber\": \"+123456789\",\r\n    \"sourceCurrency\" : \"GBP\",\r\n    \"targetCurrency\" : \"MYR\",\r\n    \"amount\" : 500\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4567/api/v1/money/transfers",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"api",
+						"v1",
+						"money",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"7a6a826b-13a0-4db5-8254-c861bf1c0105\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4567/api/v1/money/transfers",
+					"host": [
+						"localhost"
+					],
+					"port": "4567",
+					"path": [
+						"api",
+						"v1",
+						"money",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

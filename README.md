@@ -10,3 +10,5 @@ PUT localhost:4567/api/v1/money/transfers
 
 <b>GET ALL MONEY TRANSFER FOR A CUSTOMER</b></br>
 <i>GET localhost:4567/api/v1/money/transfers?senderIdentificationNumber={customerIdentificationNumber}</i>
+
+<p>Please find Money Transfer postman collection inside repsitory, to import APIs into Postman.</p>
