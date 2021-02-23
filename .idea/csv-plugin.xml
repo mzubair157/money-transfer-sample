@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\core\src\main\java\com\test\money\transfer\core\api\MoneyTransferAPIs.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\domain\MoneyTransaction.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\domain\Recever.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\domain\enums\TransactionStatus.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\exceptions\ExchangeRateNotFoundException.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\repository\impl\ExchangeRateRepositoryImpl.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\repository\impl\TransactionRepositoryImpl.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\main\java\com\test\money\transfer\db\service\DatabaseService.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\test\java\com\test\money\transfer\db\repository\impl\ExchangeRateRepositoryImplTest.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\db\src\test\java\com\test\money\transfer\db\repository\impl\TransactionRepositoryTest.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
